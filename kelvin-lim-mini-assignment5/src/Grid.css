@@ -5,10 +5,9 @@
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  max-width: 200px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
 }
 
 div {
