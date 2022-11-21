@@ -1,0 +1,24 @@
+.letter {
+  flex: 33%;
+  height: 70px;
+  width: 70px;
+  border: 1px solid grey;
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+#correct {
+  background-color: #4caf50;
+}
+
+#almost {
+  background-color: #b49f39;
+}
+
+#error {
+  background-color: grey;
+}
