@@ -1,0 +1,12 @@
+What were some challenges you faced while making this app?
+Routing, using context providers, and just understanding the flow of using React and how to use components together
+
+Given more time, what additional features, functional or design changes would you make
+I'd probably make it more robust and make use of UseEffect so that I can type with my keyboard instead of just clicking buttons. Perhaps
+add more words to my "dictionary"
+
+What assumptions did you make while working on this assignment?
+I assumed that the app can take any string since I only have a limited number of real words stored in the app
+
+How long did this assignment take to complete?
+20-30 hours and I did not work with anyone

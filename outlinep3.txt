@@ -1,0 +1,36 @@
+
+Components: 
+
+Navbar Header
+	- Link to homepage
+	- Logged-in version
+		- Button with their username that redirects to some settings
+		- Button to create a new entry
+		- Button to log out
+
+	- Not logged-in version
+		- Link to login or sign up
+	
+Feed 
+	- Status Updates (chronological descending order or newest at the top)
+		- Username
+		- Timestamp
+		- Text Content
+			- Clickeable and redirects to a page that details that user page
+	-
+
+Status Updates
+	- This field can only be seen at the top if logged in
+	- Can edit their own status updates if logged in
+		- Cannot edit others'!
+
+User Pages
+	- Big font at top of page
+	- Timestamp of when user joined
+	- Optional Description
+	- Feed of their own status updates
+	- If logged in AND on their own user page, user can edit the optional description
+
+States
+	- loggedIn
+	- maybe a username
